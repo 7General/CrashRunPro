@@ -23,22 +23,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[MainViewController alloc] init];
     [self.window makeKeyAndVisible];
-    // 百日依山尽
-
-    // 黄河入海流
-    // 欲穷千里目//
-    // 更上一层楼
-
-
-    // 美女和野兽 // 
-    // 太阳热
-
-
-
-    // hhhhhhhh
-
-
-    //121212
 
     return YES;
 }
