@@ -1,0 +1,27 @@
+{
+    "data": {
+        "list": [
+            {
+            "employeeId": "e45d7302-b849-440c-95f3-59f402b028b1",
+            "employeeType": "1",
+            
+            },
+            {
+            "employeeId": "e45d7302-b849-440c-95f3-59f402b028b1",
+            "employeeType": "1",
+            "hbgxName": ""
+            },
+            {
+            "employeeId": "e45d7302-b849-440c-95f3-59f402b028b1",
+            "employeeType": "1",
+    
+            }, 
+            {
+            "employeeId": "e45d7302-b849-440c-95f3-59f402b028b1",
+            "employeeType": "1",
+            "hbgxName": ""   
+            }
+        ]
+    }
+
+}

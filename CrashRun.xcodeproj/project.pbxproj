@@ -13,6 +13,12 @@
 		2256DB751F2AD5C80076C487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2256DB731F2AD5C80076C487 /* Main.storyboard */; };
 		2256DB771F2AD5C80076C487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2256DB761F2AD5C80076C487 /* Assets.xcassets */; };
 		2256DB7A1F2AD5C80076C487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2256DB781F2AD5C80076C487 /* LaunchScreen.storyboard */; };
+		2256DB831F2AD6580076C487 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2256DB821F2AD6580076C487 /* MainViewController.m */; };
+		2256DB891F2AD6B70076C487 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2256DB881F2AD6B70076C487 /* UncaughtExceptionHandler.m */; };
+		2256DB8C1F2AD9A90076C487 /* loginJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 2256DB8B1F2AD9A90076C487 /* loginJson.json */; };
+		2256DB8F1F2B110C0076C487 /* NSDictionary+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 2256DB8E1F2B110C0076C487 /* NSDictionary+Exception.m */; };
+		2256DB921F2B11160076C487 /* NSArray+Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = 2256DB911F2B11160076C487 /* NSArray+Exception.m */; };
+		2256DB981F2B12F40076C487 /* NSArray+CrashHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2256DB971F2B12F40076C487 /* NSArray+CrashHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,17 @@
 		2256DB761F2AD5C80076C487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2256DB791F2AD5C80076C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2256DB7B1F2AD5C80076C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2256DB811F2AD6580076C487 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2256DB821F2AD6580076C487 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2256DB871F2AD6B70076C487 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		2256DB881F2AD6B70076C487 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		2256DB8B1F2AD9A90076C487 /* loginJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loginJson.json; sourceTree = "<group>"; };
+		2256DB8D1F2B110C0076C487 /* NSDictionary+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Exception.h"; sourceTree = "<group>"; };
+		2256DB8E1F2B110C0076C487 /* NSDictionary+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Exception.m"; sourceTree = "<group>"; };
+		2256DB901F2B11160076C487 /* NSArray+Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Exception.h"; sourceTree = "<group>"; };
+		2256DB911F2B11160076C487 /* NSArray+Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Exception.m"; sourceTree = "<group>"; };
+		2256DB961F2B12F40076C487 /* NSArray+CrashHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CrashHelper.h"; sourceTree = "<group>"; };
+		2256DB971F2B12F40076C487 /* NSArray+CrashHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CrashHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +75,10 @@
 		2256DB691F2AD5C80076C487 /* CrashRun */ = {
 			isa = PBXGroup;
 			children = (
-				2256DB6D1F2AD5C80076C487 /* AppDelegate.h */,
-				2256DB6E1F2AD5C80076C487 /* AppDelegate.m */,
-				2256DB701F2AD5C80076C487 /* ViewController.h */,
-				2256DB711F2AD5C80076C487 /* ViewController.m */,
-				2256DB731F2AD5C80076C487 /* Main.storyboard */,
+				2256DB8A1F2AD9280076C487 /* DataJson */,
+				2256DB861F2AD68E0076C487 /* CrashRun */,
+				2256DB851F2AD6650076C487 /* Main */,
+				2256DB841F2AD65B0076C487 /* Basic */,
 				2256DB761F2AD5C80076C487 /* Assets.xcassets */,
 				2256DB781F2AD5C80076C487 /* LaunchScreen.storyboard */,
 				2256DB7B1F2AD5C80076C487 /* Info.plist */,
@@ -77,6 +93,50 @@
 				2256DB6B1F2AD5C80076C487 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2256DB841F2AD65B0076C487 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				2256DB6D1F2AD5C80076C487 /* AppDelegate.h */,
+				2256DB6E1F2AD5C80076C487 /* AppDelegate.m */,
+				2256DB701F2AD5C80076C487 /* ViewController.h */,
+				2256DB711F2AD5C80076C487 /* ViewController.m */,
+				2256DB731F2AD5C80076C487 /* Main.storyboard */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		2256DB851F2AD6650076C487 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2256DB811F2AD6580076C487 /* MainViewController.h */,
+				2256DB821F2AD6580076C487 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2256DB861F2AD68E0076C487 /* CrashRun */ = {
+			isa = PBXGroup;
+			children = (
+				2256DB901F2B11160076C487 /* NSArray+Exception.h */,
+				2256DB911F2B11160076C487 /* NSArray+Exception.m */,
+				2256DB8D1F2B110C0076C487 /* NSDictionary+Exception.h */,
+				2256DB8E1F2B110C0076C487 /* NSDictionary+Exception.m */,
+				2256DB871F2AD6B70076C487 /* UncaughtExceptionHandler.h */,
+				2256DB881F2AD6B70076C487 /* UncaughtExceptionHandler.m */,
+				2256DB961F2B12F40076C487 /* NSArray+CrashHelper.h */,
+				2256DB971F2B12F40076C487 /* NSArray+CrashHelper.m */,
+			);
+			name = CrashRun;
+			sourceTree = "<group>";
+		};
+		2256DB8A1F2AD9280076C487 /* DataJson */ = {
+			isa = PBXGroup;
+			children = (
+				2256DB8B1F2AD9A90076C487 /* loginJson.json */,
+			);
+			name = DataJson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2256DB7A1F2AD5C80076C487 /* LaunchScreen.storyboard in Resources */,
+				2256DB8C1F2AD9A90076C487 /* loginJson.json in Resources */,
 				2256DB771F2AD5C80076C487 /* Assets.xcassets in Resources */,
 				2256DB751F2AD5C80076C487 /* Main.storyboard in Resources */,
 			);
@@ -150,9 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2256DB8F1F2B110C0076C487 /* NSDictionary+Exception.m in Sources */,
+				2256DB921F2B11160076C487 /* NSArray+Exception.m in Sources */,
 				2256DB721F2AD5C80076C487 /* ViewController.m in Sources */,
+				2256DB891F2AD6B70076C487 /* UncaughtExceptionHandler.m in Sources */,
+				2256DB981F2B12F40076C487 /* NSArray+CrashHelper.m in Sources */,
 				2256DB6F1F2AD5C80076C487 /* AppDelegate.m in Sources */,
 				2256DB6C1F2AD5C80076C487 /* main.m in Sources */,
+				2256DB831F2AD6580076C487 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +373,7 @@
 				2256DB801F2AD5C80076C487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
