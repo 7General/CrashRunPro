@@ -24,6 +24,7 @@
     self.window.rootViewController = [[MainViewController alloc] init];
     [self.window makeKeyAndVisible];
     // 百日依山尽
+    // 黄河入海流
     return YES;
 }
 
