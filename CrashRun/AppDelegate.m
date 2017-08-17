@@ -24,7 +24,7 @@
     self.window.rootViewController = [[MainViewController alloc] init];
     [self.window makeKeyAndVisible];
     // 百日依山尽
-    // 美女和野兽
+    // 美女和野兽 // 
     // 太阳热
     return YES;
 }
